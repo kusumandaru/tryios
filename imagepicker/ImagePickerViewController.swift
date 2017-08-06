@@ -105,9 +105,12 @@ extension ViewController {
                 print(json)
                 let responses: JSON = json["responses"][0]
                 
+                
+                
+                
                 // Get face annotations
                 let faceAnnotations: JSON = responses["faceAnnotations"]
-                if faceAnnotations != nil {
+                if faceAnnotations != JSON.null {
                     let emotions: Array<String> = ["joy", "sorrow", "surprise", "anger"]
                     
                     let numPeopleDetected:Int = faceAnnotations.count
@@ -232,6 +235,16 @@ extension ViewController {
                 } else {
                     self.webPageResults.text = "No web page found"
                 }
+                
+                let baseResponse = BaseResponse(dictionary: responses.dictionaryObject as! NSDictionary)
+                
+                let wD = baseResponse?.webDetection
+                let pmi = wD?.partialMatchingImages
+                var webPageResultsText:String = "WebPage nemu: "
+                for pm in pmi!{
+                    webPageResultsText += "pm:"+"\(pm)"
+                }
+                self.webPageResults.text = webPageResultsText
             }
         })
         
@@ -297,43 +310,26 @@ extension ViewController {
         request.addValue(Bundle.main.bundleIdentifier ?? "", forHTTPHeaderField: "X-Ios-Bundle-Identifier")
         
         // Build our API request
-        let jsonRequest = [
-            "requests": [
-                "image": [
-                    "content": imageBase64
-                ],
-                "features": [
-                    [
-                        "type": "LABEL_DETECTION",
-                        "maxResults": 10
-                    ],
-                    [
-                        "type": "FACE_DETECTION",
-                        "maxResults": 10
-                    ],
-                    [
-                        "type": "LANDMARK_DETECTION",
-                        "maxResults": 10
-                    ],
-                    [
-                        "type": "LOGO_DETECTION",
-                        "maxResults": 10
-                    ],
-                    [
-                        "type": "WEB_DETECTION",
-                        "maxResults": 10
-                    ]
-                ]
-            ]
-        ]
-        let jsonObject = JSON(jsonDictionary: jsonRequest)
+        let features = [
+            NSDictionary(dictionaryLiteral:("type","LABEL_DETECTION"), ("maxResults",10)),
+            NSDictionary(dictionaryLiteral:("type","FACE_DETECTION"), ("maxResults",10)),
+            NSDictionary(dictionaryLiteral:("type","LANDMARK_DETECTION"), ("maxResults",10)),
+            NSDictionary(dictionaryLiteral:("type","LOGO_DETECTION"), ("maxResults",10)),
+            NSDictionary(dictionaryLiteral:("type","WEB_DETECTION"), ("maxResults",10))]
         
-        // Serialize the JSON
-        guard let data = try? jsonObject.rawData() else {
-            return
+        let image = NSDictionary(dictionaryLiteral:("content",imageBase64))
+        
+        let requestD = NSDictionary(
+            dictionaryLiteral: ("image", image), ("features",features)
+        )
+        
+        let requests:NSDictionary = ["requests" : requestD]
+        
+        do {
+            request.httpBody = try JSONSerialization.data(withJSONObject: requests, options: .prettyPrinted)
+        } catch let error {
+            print("error occured \(error)")
         }
-        
-        request.httpBody = data
         
         // Run the request on a background thread
         DispatchQueue.global().async { self.runRequestOnBackgroundThread(request) }
