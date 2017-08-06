@@ -15,7 +15,7 @@
 platform :ios, '8.0'
 use_frameworks!
 
-target 'imagepicker' do
+target 'caridimana' do
 	pod 'SwiftyJSON-3.1.1'
     #pod 'SwiftyJSON', '~> 3.1'
 end

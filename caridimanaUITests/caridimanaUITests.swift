@@ -14,7 +14,7 @@
 
 import XCTest
 
-class imagepickerUITests: XCTestCase {
+class caridimanaUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

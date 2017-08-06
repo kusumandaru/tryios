@@ -23,17 +23,17 @@
 		181BBA201F36C386004A489C /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BBA1C1F36C386004A489C /* Image.swift */; };
 		181BBA211F36C386004A489C /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BBA1D1F36C386004A489C /* BaseRequest.swift */; };
 		181BBA221F36C386004A489C /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BBA1E1F36C386004A489C /* Requests.swift */; };
-		18C79E2C1F2DED7F0074FB8C /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC2E7F1BF1AA7300885EBB /* ImagePickerViewController.swift */; };
-		18C79E2D1F2DED800074FB8C /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC2E7F1BF1AA7300885EBB /* ImagePickerViewController.swift */; };
-		18C79E311F2DF1A00074FB8C /* imagepickerUITests in Resources */ = {isa = PBXBuildFile; fileRef = 18C79E301F2DF1A00074FB8C /* imagepickerUITests */; };
-		18C79E341F2DF3310074FB8C /* Pods_imagepicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249890A99ED0C03E4BF78770 /* Pods_imagepicker.framework */; };
+		18C79E2C1F2DED7F0074FB8C /* CariDimanaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC2E7F1BF1AA7300885EBB /* CariDimanaViewController.swift */; };
+		18C79E2D1F2DED800074FB8C /* CariDimanaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC2E7F1BF1AA7300885EBB /* CariDimanaViewController.swift */; };
+		18C79E311F2DF1A00074FB8C /* caridimanaUITests in Resources */ = {isa = PBXBuildFile; fileRef = 18C79E301F2DF1A00074FB8C /* caridimanaUITests */; };
+		18C79E341F2DF3310074FB8C /* Pods_caridimana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249890A99ED0C03E4BF78770 /* Pods_caridimana.framework */; };
 		18C79E361F2DF3310074FB8C /* SwiftyJSON_3_1_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C79E351F2DF3310074FB8C /* SwiftyJSON_3_1_1.framework */; };
 		1BFC2E7E1BF1AA7300885EBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC2E7D1BF1AA7300885EBB /* AppDelegate.swift */; };
-		1BFC2E801BF1AA7300885EBB /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC2E7F1BF1AA7300885EBB /* ImagePickerViewController.swift */; };
+		1BFC2E801BF1AA7300885EBB /* CariDimanaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC2E7F1BF1AA7300885EBB /* CariDimanaViewController.swift */; };
 		1BFC2E831BF1AA7300885EBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BFC2E811BF1AA7300885EBB /* Main.storyboard */; };
 		1BFC2E851BF1AA7300885EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BFC2E841BF1AA7300885EBB /* Assets.xcassets */; };
 		1BFC2E881BF1AA7300885EBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BFC2E861BF1AA7300885EBB /* LaunchScreen.storyboard */; };
-		1BFC2E931BF1AA7300885EBB /* imagepickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC2E921BF1AA7300885EBB /* imagepickerTests.swift */; };
+		1BFC2E931BF1AA7300885EBB /* caridimanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC2E921BF1AA7300885EBB /* caridimanaTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,14 +42,14 @@
 			containerPortal = 1BFC2E721BF1AA7300885EBB /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1BFC2E791BF1AA7300885EBB;
-			remoteInfo = imagepicker;
+			remoteInfo = caridimana;
 		};
 		1BFC2E8F1BF1AA7300885EBB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1BFC2E721BF1AA7300885EBB /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1BFC2E791BF1AA7300885EBB;
-			remoteInfo = imagepicker;
+			remoteInfo = caridimana;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -70,23 +70,23 @@
 		181BBA1C1F36C386004A489C /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Image.swift; path = model/request/Image.swift; sourceTree = "<group>"; };
 		181BBA1D1F36C386004A489C /* BaseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseRequest.swift; path = model/request/BaseRequest.swift; sourceTree = "<group>"; };
 		181BBA1E1F36C386004A489C /* Requests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Requests.swift; path = model/request/Requests.swift; sourceTree = "<group>"; };
-		18C79E301F2DF1A00074FB8C /* imagepickerUITests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = imagepickerUITests; sourceTree = SOURCE_ROOT; };
-		18C79E351F2DF3310074FB8C /* SwiftyJSON_3_1_1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON_3_1_1.framework; path = "../../../../Library/Developer/Xcode/DerivedData/imagepicker-ckqcuvzmoadxjtdoxmoexorteyva/Build/Products/Debug-iphoneos/SwiftyJSON-3.1.1/SwiftyJSON_3_1_1.framework"; sourceTree = "<group>"; };
+		18C79E301F2DF1A00074FB8C /* caridimanaUITests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = caridimanaUITests; sourceTree = SOURCE_ROOT; };
+		18C79E351F2DF3310074FB8C /* SwiftyJSON_3_1_1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON_3_1_1.framework; path = "../../../../Library/Developer/Xcode/DerivedData/caridimana-ckqcuvzmoadxjtdoxmoexorteyva/Build/Products/Debug-iphoneos/SwiftyJSON-3.1.1/SwiftyJSON_3_1_1.framework"; sourceTree = "<group>"; };
 		1BB2EE981C359A9C0066BECE /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<group>"; };
-		1BFC2E7A1BF1AA7300885EBB /* imagepicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imagepicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BFC2E7A1BF1AA7300885EBB /* caridimana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = caridimana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BFC2E7D1BF1AA7300885EBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1BFC2E7F1BF1AA7300885EBB /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
+		1BFC2E7F1BF1AA7300885EBB /* CariDimanaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CariDimanaViewController.swift; sourceTree = "<group>"; };
 		1BFC2E821BF1AA7300885EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BFC2E841BF1AA7300885EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BFC2E871BF1AA7300885EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BFC2E891BF1AA7300885EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BFC2E8E1BF1AA7300885EBB /* imagepickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imagepickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BFC2E921BF1AA7300885EBB /* imagepickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagepickerTests.swift; sourceTree = "<group>"; };
+		1BFC2E8E1BF1AA7300885EBB /* caridimanaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = caridimanaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BFC2E921BF1AA7300885EBB /* caridimanaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caridimanaTests.swift; sourceTree = "<group>"; };
 		1BFC2E941BF1AA7300885EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BFC2E991BF1AA7300885EBB /* imagepickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imagepickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		249890A99ED0C03E4BF78770 /* Pods_imagepicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_imagepicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		39CF979D4FE706B3A1A1DD8B /* Pods-imagepicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imagepicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-imagepicker/Pods-imagepicker.release.xcconfig"; sourceTree = "<group>"; };
-		D1D2D37BECBAFEFA38A63C60 /* Pods-imagepicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imagepicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-imagepicker/Pods-imagepicker.debug.xcconfig"; sourceTree = "<group>"; };
+		1BFC2E991BF1AA7300885EBB /* caridimanaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = caridimanaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		249890A99ED0C03E4BF78770 /* Pods_caridimana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_caridimana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CF979D4FE706B3A1A1DD8B /* Pods-caridimana.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-caridimana.release.xcconfig"; path = "Pods/Target Support Files/Pods-caridimana/Pods-caridimana.release.xcconfig"; sourceTree = "<group>"; };
+		D1D2D37BECBAFEFA38A63C60 /* Pods-caridimana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-caridimana.debug.xcconfig"; path = "Pods/Target Support Files/Pods-caridimana/Pods-caridimana.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C79E361F2DF3310074FB8C /* SwiftyJSON_3_1_1.framework in Frameworks */,
-				18C79E341F2DF3310074FB8C /* Pods_imagepicker.framework in Frameworks */,
+				18C79E341F2DF3310074FB8C /* Pods_caridimana.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,7 +160,7 @@
 			children = (
 				18C79E351F2DF3310074FB8C /* SwiftyJSON_3_1_1.framework */,
 				1BB2EE981C359A9C0066BECE /* SwiftyJSON.framework */,
-				249890A99ED0C03E4BF78770 /* Pods_imagepicker.framework */,
+				249890A99ED0C03E4BF78770 /* Pods_caridimana.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -168,9 +168,9 @@
 		1BFC2E711BF1AA7300885EBB = {
 			isa = PBXGroup;
 			children = (
-				18C79E301F2DF1A00074FB8C /* imagepickerUITests */,
-				1BFC2E7C1BF1AA7300885EBB /* imagepicker */,
-				1BFC2E911BF1AA7300885EBB /* imagepickerTests */,
+				18C79E301F2DF1A00074FB8C /* caridimanaUITests */,
+				1BFC2E7C1BF1AA7300885EBB /* caridimana */,
+				1BFC2E911BF1AA7300885EBB /* caridimanaTests */,
 				1BFC2E7B1BF1AA7300885EBB /* Products */,
 				1A7875495C2015C0FC41D8D9 /* Frameworks */,
 				BE5828B94D8C2B8600046DBC /* Pods */,
@@ -180,41 +180,41 @@
 		1BFC2E7B1BF1AA7300885EBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1BFC2E7A1BF1AA7300885EBB /* imagepicker.app */,
-				1BFC2E8E1BF1AA7300885EBB /* imagepickerTests.xctest */,
-				1BFC2E991BF1AA7300885EBB /* imagepickerUITests.xctest */,
+				1BFC2E7A1BF1AA7300885EBB /* caridimana.app */,
+				1BFC2E8E1BF1AA7300885EBB /* caridimanaTests.xctest */,
+				1BFC2E991BF1AA7300885EBB /* caridimanaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1BFC2E7C1BF1AA7300885EBB /* imagepicker */ = {
+		1BFC2E7C1BF1AA7300885EBB /* caridimana */ = {
 			isa = PBXGroup;
 			children = (
 				1846DA211F35C9C30028988A /* models */,
 				1BFC2E7D1BF1AA7300885EBB /* AppDelegate.swift */,
-				1BFC2E7F1BF1AA7300885EBB /* ImagePickerViewController.swift */,
+				1BFC2E7F1BF1AA7300885EBB /* CariDimanaViewController.swift */,
 				1BFC2E811BF1AA7300885EBB /* Main.storyboard */,
 				1BFC2E841BF1AA7300885EBB /* Assets.xcassets */,
 				1BFC2E861BF1AA7300885EBB /* LaunchScreen.storyboard */,
 				1BFC2E891BF1AA7300885EBB /* Info.plist */,
 			);
-			path = imagepicker;
+			path = caridimana;
 			sourceTree = "<group>";
 		};
-		1BFC2E911BF1AA7300885EBB /* imagepickerTests */ = {
+		1BFC2E911BF1AA7300885EBB /* caridimanaTests */ = {
 			isa = PBXGroup;
 			children = (
-				1BFC2E921BF1AA7300885EBB /* imagepickerTests.swift */,
+				1BFC2E921BF1AA7300885EBB /* caridimanaTests.swift */,
 				1BFC2E941BF1AA7300885EBB /* Info.plist */,
 			);
-			path = imagepickerTests;
+			path = caridimanaTests;
 			sourceTree = "<group>";
 		};
 		BE5828B94D8C2B8600046DBC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D1D2D37BECBAFEFA38A63C60 /* Pods-imagepicker.debug.xcconfig */,
-				39CF979D4FE706B3A1A1DD8B /* Pods-imagepicker.release.xcconfig */,
+				D1D2D37BECBAFEFA38A63C60 /* Pods-caridimana.debug.xcconfig */,
+				39CF979D4FE706B3A1A1DD8B /* Pods-caridimana.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -222,9 +222,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1BFC2E791BF1AA7300885EBB /* imagepicker */ = {
+		1BFC2E791BF1AA7300885EBB /* caridimana */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BFC2EA21BF1AA7300885EBB /* Build configuration list for PBXNativeTarget "imagepicker" */;
+			buildConfigurationList = 1BFC2EA21BF1AA7300885EBB /* Build configuration list for PBXNativeTarget "caridimana" */;
 			buildPhases = (
 				975209D4FA62D26BE2E4CA99 /* [CP] Check Pods Manifest.lock */,
 				1BFC2E761BF1AA7300885EBB /* Sources */,
@@ -237,14 +237,14 @@
 			);
 			dependencies = (
 			);
-			name = imagepicker;
-			productName = imagepicker;
-			productReference = 1BFC2E7A1BF1AA7300885EBB /* imagepicker.app */;
+			name = caridimana;
+			productName = caridimana;
+			productReference = 1BFC2E7A1BF1AA7300885EBB /* caridimana.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1BFC2E8D1BF1AA7300885EBB /* imagepickerTests */ = {
+		1BFC2E8D1BF1AA7300885EBB /* caridimanaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BFC2EA51BF1AA7300885EBB /* Build configuration list for PBXNativeTarget "imagepickerTests" */;
+			buildConfigurationList = 1BFC2EA51BF1AA7300885EBB /* Build configuration list for PBXNativeTarget "caridimanaTests" */;
 			buildPhases = (
 				1BFC2E8A1BF1AA7300885EBB /* Sources */,
 				1BFC2E8B1BF1AA7300885EBB /* Frameworks */,
@@ -255,14 +255,14 @@
 			dependencies = (
 				1BFC2E901BF1AA7300885EBB /* PBXTargetDependency */,
 			);
-			name = imagepickerTests;
-			productName = imagepickerTests;
-			productReference = 1BFC2E8E1BF1AA7300885EBB /* imagepickerTests.xctest */;
+			name = caridimanaTests;
+			productName = caridimanaTests;
+			productReference = 1BFC2E8E1BF1AA7300885EBB /* caridimanaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1BFC2E981BF1AA7300885EBB /* imagepickerUITests */ = {
+		1BFC2E981BF1AA7300885EBB /* caridimanaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BFC2EA81BF1AA7300885EBB /* Build configuration list for PBXNativeTarget "imagepickerUITests" */;
+			buildConfigurationList = 1BFC2EA81BF1AA7300885EBB /* Build configuration list for PBXNativeTarget "caridimanaUITests" */;
 			buildPhases = (
 				1BFC2E951BF1AA7300885EBB /* Sources */,
 				1BFC2E961BF1AA7300885EBB /* Frameworks */,
@@ -273,9 +273,9 @@
 			dependencies = (
 				18C79E331F2DF1AD0074FB8C /* PBXTargetDependency */,
 			);
-			name = imagepickerUITests;
-			productName = imagepickerUITests;
-			productReference = 1BFC2E991BF1AA7300885EBB /* imagepickerUITests.xctest */;
+			name = caridimanaUITests;
+			productName = caridimanaUITests;
+			productReference = 1BFC2E991BF1AA7300885EBB /* caridimanaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -309,7 +309,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1BFC2E751BF1AA7300885EBB /* Build configuration list for PBXProject "imagepicker" */;
+			buildConfigurationList = 1BFC2E751BF1AA7300885EBB /* Build configuration list for PBXProject "cariDimana" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -322,9 +322,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1BFC2E791BF1AA7300885EBB /* imagepicker */,
-				1BFC2E8D1BF1AA7300885EBB /* imagepickerTests */,
-				1BFC2E981BF1AA7300885EBB /* imagepickerUITests */,
+				1BFC2E791BF1AA7300885EBB /* caridimana */,
+				1BFC2E8D1BF1AA7300885EBB /* caridimanaTests */,
+				1BFC2E981BF1AA7300885EBB /* caridimanaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -334,7 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C79E311F2DF1A00074FB8C /* imagepickerUITests in Resources */,
+				18C79E311F2DF1A00074FB8C /* caridimanaUITests in Resources */,
 				1BFC2E881BF1AA7300885EBB /* LaunchScreen.storyboard in Resources */,
 				1BFC2E851BF1AA7300885EBB /* Assets.xcassets in Resources */,
 				1BFC2E831BF1AA7300885EBB /* Main.storyboard in Resources */,
@@ -370,7 +370,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-imagepicker/Pods-imagepicker-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-caridimana/Pods-caridimana-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		975209D4FA62D26BE2E4CA99 /* [CP] Check Pods Manifest.lock */ = {
@@ -400,7 +400,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-imagepicker/Pods-imagepicker-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-caridimana/Pods-caridimana-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -420,7 +420,7 @@
 				181BBA1A1F36C334004A489C /* WebEntities.swift in Sources */,
 				181BBA151F36C334004A489C /* PartialMatchingImages.swift in Sources */,
 				181BBA111F36C334004A489C /* FaceAnnotations.swift in Sources */,
-				1BFC2E801BF1AA7300885EBB /* ImagePickerViewController.swift in Sources */,
+				1BFC2E801BF1AA7300885EBB /* CariDimanaViewController.swift in Sources */,
 				181BBA101F36C334004A489C /* BoundingPoly.swift in Sources */,
 				181BBA221F36C386004A489C /* Requests.swift in Sources */,
 				1BFC2E7E1BF1AA7300885EBB /* AppDelegate.swift in Sources */,
@@ -435,8 +435,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C79E2C1F2DED7F0074FB8C /* ImagePickerViewController.swift in Sources */,
-				1BFC2E931BF1AA7300885EBB /* imagepickerTests.swift in Sources */,
+				18C79E2C1F2DED7F0074FB8C /* CariDimanaViewController.swift in Sources */,
+				1BFC2E931BF1AA7300885EBB /* caridimanaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,7 +444,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C79E2D1F2DED800074FB8C /* ImagePickerViewController.swift in Sources */,
+				18C79E2D1F2DED800074FB8C /* CariDimanaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,12 +453,12 @@
 /* Begin PBXTargetDependency section */
 		18C79E331F2DF1AD0074FB8C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1BFC2E791BF1AA7300885EBB /* imagepicker */;
+			target = 1BFC2E791BF1AA7300885EBB /* caridimana */;
 			targetProxy = 18C79E321F2DF1AD0074FB8C /* PBXContainerItemProxy */;
 		};
 		1BFC2E901BF1AA7300885EBB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1BFC2E791BF1AA7300885EBB /* imagepicker */;
+			target = 1BFC2E791BF1AA7300885EBB /* caridimana */;
 			targetProxy = 1BFC2E8F1BF1AA7300885EBB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -573,7 +573,7 @@
 		};
 		1BFC2EA31BF1AA7300885EBB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1D2D37BECBAFEFA38A63C60 /* Pods-imagepicker.debug.xcconfig */;
+			baseConfigurationReference = D1D2D37BECBAFEFA38A63C60 /* Pods-caridimana.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -583,9 +583,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
-				INFOPLIST_FILE = imagepicker/Info.plist;
+				INFOPLIST_FILE = caridimana/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ndaru.imagepicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ndaru.caridimana;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -595,7 +595,7 @@
 		};
 		1BFC2EA41BF1AA7300885EBB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39CF979D4FE706B3A1A1DD8B /* Pods-imagepicker.release.xcconfig */;
+			baseConfigurationReference = 39CF979D4FE706B3A1A1DD8B /* Pods-caridimana.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -605,9 +605,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
-				INFOPLIST_FILE = imagepicker/Info.plist;
+				INFOPLIST_FILE = caridimana/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ndaru.imagepicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ndaru.caridimana;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -621,13 +621,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = imagepickerTests/Info.plist;
+				INFOPLIST_FILE = caridimanaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sara.woot.imagepickerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sara.woot.caridimanaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imagepicker.app/imagepicker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/caridimana.app/caridimana";
 			};
 			name = Debug;
 		};
@@ -637,13 +637,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = imagepickerTests/Info.plist;
+				INFOPLIST_FILE = caridimanaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sara.woot.imagepickerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sara.woot.caridimanaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imagepicker.app/imagepicker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/caridimana.app/caridimana";
 			};
 			name = Release;
 		};
@@ -652,14 +652,14 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 47QR729JFQ;
-				INFOPLIST_FILE = imagepickerUITests/Info.plist;
+				INFOPLIST_FILE = caridimanaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sara.woot.imagepickerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sara.woot.caridimanaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = imagepicker;
+				TEST_TARGET_NAME = caridimana;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -669,14 +669,14 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 47QR729JFQ;
-				INFOPLIST_FILE = imagepickerUITests/Info.plist;
+				INFOPLIST_FILE = caridimanaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sara.woot.imagepickerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sara.woot.caridimanaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = imagepicker;
+				TEST_TARGET_NAME = caridimana;
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;
@@ -684,7 +684,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BFC2E751BF1AA7300885EBB /* Build configuration list for PBXProject "imagepicker" */ = {
+		1BFC2E751BF1AA7300885EBB /* Build configuration list for PBXProject "cariDimana" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BFC2EA01BF1AA7300885EBB /* Debug */,
@@ -693,7 +693,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BFC2EA21BF1AA7300885EBB /* Build configuration list for PBXNativeTarget "imagepicker" */ = {
+		1BFC2EA21BF1AA7300885EBB /* Build configuration list for PBXNativeTarget "caridimana" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BFC2EA31BF1AA7300885EBB /* Debug */,
@@ -702,7 +702,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BFC2EA51BF1AA7300885EBB /* Build configuration list for PBXNativeTarget "imagepickerTests" */ = {
+		1BFC2EA51BF1AA7300885EBB /* Build configuration list for PBXNativeTarget "caridimanaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BFC2EA61BF1AA7300885EBB /* Debug */,
@@ -711,7 +711,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BFC2EA81BF1AA7300885EBB /* Build configuration list for PBXNativeTarget "imagepickerUITests" */ = {
+		1BFC2EA81BF1AA7300885EBB /* Build configuration list for PBXNativeTarget "caridimanaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BFC2EA91BF1AA7300885EBB /* Debug */,
