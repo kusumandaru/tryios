@@ -17,7 +17,7 @@ import SwiftyJSON_3_1_1
 
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-    let imagePicker = UIImagePickerController()
+    let cariDimana = UIImagePickerController()
     let session = URLSession.shared
     
     @IBOutlet weak var imageView: UIImageView!
@@ -34,31 +34,31 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     @IBAction func loadImageButtonTapped(_ sender: UIButton) {
-        imagePicker.allowsEditing = false
+        cariDimana.allowsEditing = false
         
         let alert = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
         alert.addAction(UIAlertAction(title: "Camera", style: .default, handler: {
             action in
-            self.imagePicker.sourceType = .camera
-            self.present(self.imagePicker, animated: true, completion: nil)
+            self.cariDimana.sourceType = .camera
+            self.present(self.cariDimana, animated: true, completion: nil)
         }))
         alert.addAction(UIAlertAction(title: "Photo Library", style: .default, handler: {
             action in
-            self.imagePicker.sourceType = .photoLibrary
-            self.present(self.imagePicker, animated: true, completion: nil)
+            self.cariDimana.sourceType = .photoLibrary
+            self.present(self.cariDimana, animated: true, completion: nil)
         }))
         alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
         self.present(alert, animated: true, completion: nil)
         
-        //imagePicker.sourceType = .camera
+        //cariDimana.sourceType = .camera
         
-        present(imagePicker, animated: true, completion: nil)
+        present(cariDimana, animated: true, completion: nil)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        imagePicker.delegate = self
+        cariDimana.delegate = self
         labelResults.isHidden = true
         faceResults.isHidden = true
         logoResults.isHidden = true
@@ -250,7 +250,7 @@ extension ViewController {
         
     }
     
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+    func cariDimanaController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         if let pickedImage = info[UIImagePickerControllerOriginalImage] as? UIImage {
             imageView.contentMode = .scaleAspectFit
             imageView.image = pickedImage
@@ -270,7 +270,7 @@ extension ViewController {
         dismiss(animated: true, completion: nil)
     }
     
-    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+    func cariDimanaControllerDidCancel(_ picker: UIImagePickerController) {
         dismiss(animated: true, completion: nil)
     }
     

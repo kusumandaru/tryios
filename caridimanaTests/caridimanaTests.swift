@@ -13,9 +13,9 @@
 // limitations under the License.
 
 import XCTest
-@testable import imagepicker
+@testable import caridimana
 
-class imagepickerTests: XCTestCase {
+class caridimanaTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

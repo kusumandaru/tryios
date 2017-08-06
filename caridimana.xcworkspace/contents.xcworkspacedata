@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:imagepicker.xcodeproj">
+      location = "group:/Users/apple/Documents/tryios/cariDimana.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:cariDimana.xcodeproj">
    </FileRef>
 </Workspace>
